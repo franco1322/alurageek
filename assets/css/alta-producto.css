@@ -1,0 +1,19 @@
+.alta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.alta__input__text{
+    margin-bottom: 1rem;
+} 
+
+.alta__title{
+    text-align: center;
+}
+
+form{
+    width: 400px;
+}
+

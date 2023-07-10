@@ -1,0 +1,23 @@
+{
+    "usuarios": [
+      {
+        "username": "admin@admin.com",
+        "password": "admin"
+      }
+    ],
+    
+        "productos": [
+          {
+            "imagenUrl": "assets/img/productos/Skill (1).png",
+            "categoria": "Electrónicos",
+            "nombre": "LEGO Overwatch Wrecking Ball",
+            "precio": "59.0",
+            "descripcion": "Descripción del producto"
+          }
+        ]
+      
+      
+}
+
+
+  

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1148b72e65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/productos.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-form.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/todos_productos.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/alta-producto.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Alura Geek 02</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__menu">
+            <img class="logo" src="assets/img/Logo.png" alt="Logo de Alura Geek">
+            <div class="header__search-wrapper">
+                <input class="header__input-search" type="search" name="search" placeholder="search...">
+                <i class="fa-solid fa-magnifying-glass "></i>
+            </div>
+        </div>
+        <!--<a id="btn-menu-admin" href="#" class="btn__border__blue admin__btn">Menu Administrador</a>-->
+    </header>
+
+    <section class="alta">
+        <h2 class="alta__title">Agregar nuevo producto</h2>
+        
+        <form>
+            <div class="seleccionar__imagen">
+                <input class="alta__input__text w3-input" type="text" name="imagen-url" placeholder="Ingrese la direccion de la imagen">
+                <button type="submit" class="contact-button submit-button">
+                    <div>
+                      <span class="bg"></span>
+                      <span class="base"></span>
+                      <span class="text">
+                       seleccionar archivo
+                      </span>
+                    </div>
+                    
+                  </button> 
+              </div>
+
+            <label for="">Categoria</label>
+            <input class="alta__input__text w3-input" type="text" name="categoria" placeholder="electronicos">
+
+            <label for="">Nombre</label>
+            <input class="alta__input__text w3-input"  type="text" name="nombre-producto" >
+
+            <label for="">Precio</label>
+            <input class="alta__input__text w3-input"  type="number" name="precio-producto">
+
+            <label for="">Descripción</label>
+            <input class="alta__input__text w3-input"  type="text" name="descripcion" >
+            
+            <button type="submit" class="contact-button submit-button">
+                <div>
+                  <span class="bg"></span>
+                  <span class="base"></span>
+                  <span class="text">
+                    Agregar producto
+                  </span>
+                </div>
+                
+              </button>     
+        </form>
+
+    </section>
+
+    <section class="contacto container">
+        <div class="contacto__div">
+            <div class="contacto__div__datos">
+                <img class="logo" src="assets/img/Logo.png" alt="">
+                <ul class="contacto__datos">
+                    <li class="contacto__datos__item">Quienes somos</li>
+                    <li class="contacto__datos__item">Politicas de privacidad</li>
+                    <li class="contacto__datos__item">Programa de fidelidad</li>
+                    <li class="contacto__datos__item">Nuestras tiendas</li>
+                    <li class="contacto__datos__item">Quiero ser franquiciado</li>
+                    <li class="contacto__datos__item">Anunciate aquí</li>  
+                </ul>
+            </div> 
+            <form  class="contacto__form" action="post">
+                <legend>Hable con nosotros</legend>
+                <input class="contacto__input__nombre w3-input" type="text" name="nombre" id="nombre" placeholder="fulanito">
+                <textarea class="contacto__input__mensaje w3-input" name="contacto__mensaje" id="" cols="30" rows="10"></textarea>  
+                <button type="submit" class="contact-button submit-button">
+                    <div>
+                      <span class="bg"></span>
+                      <span class="base"></span>
+                      <span class="text">
+                        Enviar Mensaje
+                      </span>
+                    </div>
+                    
+                  </button>           
+            </form>
+        </div>
+       
+    </section>
+
+    <footer class="footer">
+        <h4 class="footer__autor">Developed by Nelson Franco</h4>
+        <h4 class="footer__year">2023</h4>
+
+    </footer>
+    <script>script.js</script>
+</body>
+</html>

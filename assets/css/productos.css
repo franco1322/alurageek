@@ -1,0 +1,40 @@
+.productos{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.productos_cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.producto__general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.producto__link{ 
+    color: #08fdd8;
+}
+.alta__input__text{ 
+    color: white;
+   
+    background-color: rgb(105, 108, 108);
+}
+.seleccionar__imagen{
+    display: flex;
+        
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width:0) {
+    
+    .producto{
+        width: 180px;
+    }
+    
+}

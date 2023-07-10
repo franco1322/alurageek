@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__autor{
+    font-size: 10px;
+}
+
+.footer__year{
+    font-size: 10px;
+}
